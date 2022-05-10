@@ -1,6 +1,6 @@
-## Welcome to Hyejin Pages
-
-
+## Welcome to Hyejin Pages ⌨
+CAU ET LAB
+ML/DL 
 
 ### Automated Audio Captioning
 
