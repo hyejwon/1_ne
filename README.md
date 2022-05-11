@@ -11,8 +11,7 @@ ML/DL**
 1. [aac](#aac)  
 2. [acc](#acc)  
 3. [알고리즘](#알고리즘)
-   1. [백준](#백준)
-
+   
 
 
 
@@ -27,6 +26,8 @@ dcase task 6 automated audio captioning
 dacon
 
 ## 알고리즘
-
-### 백준
-
+    알고리즘/
+     | - 다이나믹프로그래밍/
+     | - 그리디알고리즘/
+     | - BFS/
+     | - DFS/
