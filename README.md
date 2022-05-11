@@ -1,9 +1,8 @@
 ## Welcome to Hyejin Pages 🕹
 
 My name... Hyejin Won
-
-
-CAU ET LAB
+Master of Statistics 
+CAU ET LAB 
 ML/DL ![D3ADF4EB-88F0-4962-964B-FFB931004A10](https://user-images.githubusercontent.com/71366457/167638564-278571fe-3e2f-438d-8cac-95fd5eecfa58.png)
 
 
