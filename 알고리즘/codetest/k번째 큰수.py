@@ -1,3 +1,4 @@
+#k번째 큰수
 n,k = map(int,input().split())
 a = list(map(int,input().split()))
 res=set()
