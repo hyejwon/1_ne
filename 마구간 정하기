@@ -1,0 +1,115 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOQIQRuT96mjbV6nVO1c3nf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hyejwon/1_ne/blob/main/%EB%A7%88%EA%B5%AC%EA%B0%84%20%EC%A0%95%ED%95%98%EA%B8%B0\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "XV04Vvt41AqJ"
+      },
+      "outputs": [],
+      "source": [
+        "#마구간 정하기(결정알고리즘)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n,k = map(int,input().split())\n",
+        "\n",
+        "Line = []\n",
+        "\n",
+        "def Count(len):\n",
+        "  cnt = 1\n",
+        "  ep= Line[0]\n",
+        "  for i in range(1,n):\n",
+        "    if Line[i]-ep>=len:\n",
+        "      cnt+=1\n",
+        "      ep = Line[i]\n",
+        "  return cnt\n",
+        "\n",
+        "\n",
+        "for _ in range(n):\n",
+        "    tmp = int(input())\n",
+        "    Line.append(tmp)\n",
+        "\n",
+        "Line.sort()\n",
+        "lt = 1\n",
+        "rt = Line[n-1]\n",
+        "\n",
+        "while lt <= rt:\n",
+        "  mid = (lt + rt )//2\n",
+        "  if Count(mid) >=k:\n",
+        "    res = mid\n",
+        "    lt = mid + 1\n",
+        "  else:\n",
+        "    rt = mid -1\n",
+        "\n",
+        "print(res)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0eMYSpcS1Fc9",
+        "outputId": "73ee21a1-98cc-4520-dc11-2655245124f5"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "5 3\n",
+            "1\n",
+            "2\n",
+            "8\n",
+            "4\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "MeURlX3L3H41"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
