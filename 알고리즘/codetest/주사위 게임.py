@@ -1,4 +1,5 @@
 #주사위 게임
+<<<<<<< HEAD
 def reward(x):
     #for i in range(len(x)):
     sum=0 #초기화
@@ -27,3 +28,24 @@ n = int(input())
 a= [list(map(int,input().split())) for i in range(n)] 
     
 print(max(reward(a[0]),reward(a[1]),reward(a[2])))
+=======
+n = int(input())
+max = 0
+for i in range(n):
+    tmp = input().split()
+    tmp.sort()
+    a, b, c =map(int,tmp)
+    if a ==b and b==c: #가장 구하고 싶은 조건 
+        sum=10000+(a*1000)
+    elif a == b or a == c:
+        sum = 1000+(a*100)
+    elif b == c :
+        sum = 1000+(b*100)
+    else:
+        sum = c *100
+    
+    if sum>max:
+        max = sum
+print(max)
+    
+>>>>>>> 6f115085c2d78cd51bdc458a4f4a9be20e2a5da7
