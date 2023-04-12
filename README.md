@@ -1,14 +1,13 @@
-# 🕹Welcome to Hyejin Pages 
-  👏👏My name... Hyejin Won  
-✔**Master of Statistics   
-CAU ET LAB   
-ML/DL**   
+<div align="center">
+ # 🕹Welcome to Hyejin Pages 
+ 👏👏My name... Hyejin Won  
+ ✔**Master of Statistics   
+ CAU ET LAB   
+ ML/DL**   
 
 
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/generate_badge?boj=whj9492)](https://solved.ac/whj9492)
-
-
 
 
 ## 📂About folders
@@ -16,8 +15,6 @@ ML/DL**
 2. [acc](#acc)  
 3. [알고리즘](#알고리즘)
    
-
-
 
 ## aac
 dcase task 6 automated audio captioning
@@ -32,3 +29,5 @@ dacon
      | - 그리디알고리즘/
      | - BFS/
      | - DFS/
+
+</div>
