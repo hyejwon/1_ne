@@ -1,8 +1,8 @@
 <div align="center">
- # 🕹Welcome to Hyejin Pages 
- 👏👏My name... Hyejin Won  
- ✔**Master of Statistics
-</div>
+#🕹Welcome to Hyejin Pages  
+👏👏My name... Hyejin Won  
+✔**Master of Statistics
+
 
 CAU ET LAB   
 ML/DL**   
@@ -28,3 +28,4 @@ dacon
      | - BFS/
      | - DFS/
 
+</div>
