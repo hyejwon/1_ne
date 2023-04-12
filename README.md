@@ -7,7 +7,7 @@ ML/DL**
 
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj={hyejwon})](https://solved.ac/{hyejwon})
+프로필](http://mazassumnida.wtf/api/generate_badge?boj=hyejwon)](https://solved.ac/hyejwon)
 
 
 ## 📂About folders
