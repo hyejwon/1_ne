@@ -12,9 +12,9 @@
  프로필](http://mazassumnida.wtf/api/generate_badge?boj=whj9492)](https://solved.ac/whj9492)
 
  ## 📂About folders
- 1. [aac](#aac)  
- 2. [acc](#acc)  
- 3. [알고리즘](#알고리즘)
+  1. [aac](#aac)  
+  2. [acc](#acc)  
+  3. [알고리즘](#알고리즘)
 
  ## aac
  dcase task 6 automated audio captioning
