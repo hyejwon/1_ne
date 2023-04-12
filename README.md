@@ -1,5 +1,5 @@
 <div align="center">
-# 🕹Welcome to Hyejin Pages  
+## 🕹Welcome to Hyejin Pages  
 👏👏My name... Hyejin Won  
 ✔**Master of Statistics
 
